@@ -5,6 +5,8 @@
 
 ![image](https://user-images.githubusercontent.com/39176556/223015349-65f6d998-6aff-4a1c-be61-c3753f280997.png)
 
+#### Logarithms
+* Inverse operation of exponentiation
 
 ### Algorithms
 
@@ -21,6 +23,7 @@
 * Before n<sub>0</sub> doesn't matter
 * Usually interested in worst-case, the upper bound (Big-Oh) i.e. doesn't exceed bounding function
 * Differ by some constant amount, which gets smaller and smaller as the input grows larger
+  * So we can ignore the constant factor difference and use these notations to make comparisons of algorithms easier
 
 #### Common Growth Rates
 * N = input
