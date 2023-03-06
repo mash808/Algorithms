@@ -22,6 +22,15 @@
 ### Algorithms
 
 #### General
+> An algorithm is a sequence of unambigous instructions for solving a problem
+* Get required output for any legitimate input in a finite amount of time
+* Algorithms are independent from programming languages
+  * Can be implemented using a programming language, however
+
+<img width="269" alt="Screenshot 2023-03-06 at 3 12 03 pm" src="https://user-images.githubusercontent.com/39176556/223024446-33a1e57e-ea93-4107-93d6-7b3138d7b7ca.png">
+
+
+#### Performance / Efficiency
 * Worried about performance of an algorithm (running time & memory space)
   * Time and space complexity
 * If measuring time algorithm has taken (or space data structure takes up in memory), can vary from machine to machine
