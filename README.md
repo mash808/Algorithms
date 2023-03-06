@@ -7,6 +7,13 @@
 
 #### Logarithms
 * Inverse operation of exponentiation
+* "What power `x` do I need to apply to base `b` to get number `y`?"
+  * e.g. log<sub>10</sub>(100) = 2 is the inverse of 10<sup>2</sup> = 100
+* Another way to think about it is "how many `b`'s do I need to multiply together to get `y`?"
+* Logarithms are a nice way to deal with multiplicative sequences, like something growing at a changing rate
+  * Using logarithms, allows a multiplicative sequence to become an additive one (easier to deal with)
+    * e.g. If `r = changing rate`: (1+r<sub>1</sub>) * (1+r<sub>2</sub>) * (1+r<sub>3</sub>) becomes log(1+r<sub>1</sub>) + log(1+r<sub>2</sub>) + log(1+r<sub>3</sub>)
+  * Nice way to handle some algorithm's growth rates 
 
 ### Algorithms
 
