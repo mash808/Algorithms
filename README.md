@@ -14,6 +14,10 @@
   * Using logarithms, allows a multiplicative sequence to become an additive one (easier to deal with)
     * e.g. If `r = changing rate`: (1+r<sub>1</sub>) * (1+r<sub>2</sub>) * (1+r<sub>3</sub>) becomes log(1+r<sub>1</sub>) + log(1+r<sub>2</sub>) + log(1+r<sub>3</sub>)
   * Nice way to handle some algorithm's growth rates 
+* Logs help us see changes in growth rates more easily
+
+![image](https://user-images.githubusercontent.com/39176556/223023273-3ce64475-9483-4999-8fa7-8c620acf9643.png)
+
 
 ### Algorithms
 
