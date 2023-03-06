@@ -2,6 +2,7 @@
 
 #### Asymptote
 * Approaches but never touches as approaches infinity
+
 ![image](https://user-images.githubusercontent.com/39176556/223015349-65f6d998-6aff-4a1c-be61-c3753f280997.png)
 
 
