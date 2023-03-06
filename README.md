@@ -29,6 +29,46 @@
 
 <img width="269" alt="Screenshot 2023-03-06 at 3 12 03 pm" src="https://user-images.githubusercontent.com/39176556/223024446-33a1e57e-ea93-4107-93d6-7b3138d7b7ca.png">
 
+#### Pseudocode
+* A way to describe an algorithm without having to worry about language-specific details
+
+#### Pseudocode Notation
+```
+* v, w, ... : variable names
+* E, F, ... : expressions
+* B, C, ... : boolean-valued expressions
+* S, T, ... : (compound) program statements
+* P, Q, ... : procedure names
+
+* Expressions: (2 * v) + x
+* Parameterised procedure declarations: P(x, y, ...) S
+* Procedure calls: P(E, F, ...)
+* Returned values: return E
+* Informal bits: "obvious" actions e.g. "swap" in some sorting algorithms
+* Assignment: v ⬅ E
+* Sequential composition: S T or S; T
+* Choice: if B S else T
+* Iteration (pre-tested): while B do S
+* Iteration (post-tested): repeat S until B
+* If-then statements (one-armed): if B S
+* For loops: for v ⬅ N to M do S
+* Primitive types (numbers, characters, Booleans, etc.): 3.14, 'c', true
+* Arrays (vectors): A[i]
+* Sets: {4, ..., 10}
+```
+
+##### Example
+```
+ALGORITHM ArrayMax(A[0..n-1])
+  // Given an array A, of length n >= 1, returns
+  // the value of the largest number in A
+  max ⬅ A[0]
+  for i ⬅ 1 to n - 1 do
+    if A[i] > max
+      max ⬅ A[i]
+  return max
+```
+ 
 
 #### Performance / Efficiency
 * Worried about performance of an algorithm (running time & memory space)
