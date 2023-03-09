@@ -18,6 +18,20 @@
 
 ![image](https://user-images.githubusercontent.com/39176556/223023273-3ce64475-9483-4999-8fa7-8c620acf9643.png)
 
+#### Polynomials
+* Polynomials means "many terms"
+  * Poly -> "many"
+  * Nomial -> "name" or "term" in this case
+* Polynomials are expressions that have one or more terms (*binomials* are polynomials with two terms, *trinomials* have three terms, etc.)
+  * Each have a constant multiplied by one or more variables raised to a nonnegative power e.g. a + bx + cx<sup>2</sup>
+* The `terms` are seperated by signs e.g. In a + bx + cx<sup>2</sup>, `a`, `bx`, and `cx²` are the terms
+* `Expressions` are the grouping of terms.
+
+##### Use in Algorithms
+* We see polynomials all the time in algorithm analysis
+* `T(n) = 3 + (2 + 3) * (n - 1) + 1 = 5n - 1` would be an example of a polynomial in algorithm analysis
+  * `T(n)` is a function representing the running time of an algorithm with `n` being the size of it's input
+  * The constants in this polynomial are the time that each timed bit of code takes to complete in microseconds
 
 ### Algorithms
 
